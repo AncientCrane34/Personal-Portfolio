@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: forestgreen;
+}
+
+h1{
+    font-size: 200%;
+    padding: 2.5%;
+    color: orangered;
+}
+
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    min-width: 400px;
+    padding-right: 10%;
+    font-weight: bold;
+    font-size: 125%;
+}
+
+section{
+    display: flex;
+    flex: 1 1 0;
+    max-width: 96%;
+    margin: 2% auto;
+}
+
+h2{
+    font-size: 200%;
+    color: orangered;
+    padding: 10px;
+    border-right: 2px solid springgreen;
+    
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    padding-bottom: 1%;
+}
