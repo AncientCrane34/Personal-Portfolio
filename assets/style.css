@@ -1,3 +1,7 @@
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -6,7 +10,6 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 1%;
     background-color: forestgreen;
@@ -20,11 +23,16 @@ h1{
 
 nav ul{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-direction: row;
     min-width: 400px;
     padding-right: 10%;
+}
+
+nav a{
     font-weight: bold;
     font-size: 125%;
+    color:darkblue    
 }
 
 section{
@@ -35,6 +43,7 @@ section{
 }
 
 h2{
+    display: flex;
     font-size: 200%;
     color: orangered;
     padding: 10px;
@@ -49,4 +58,58 @@ article{
 
 p{
     padding-bottom: 1%;
+}
+
+div li{
+    display: flex;
+    flex-direction: column;
+    padding: 80% 80% 20% 20%;
+    border: solid 5px blue;
+    margin: 5%;
+
+}
+
+div li:hover{
+    background-color: crimson;
+    color: antiquewhite;
+}
+
+div li:active{
+    box-shadow: 0 0 10px black inset;
+}
+
+div span{
+    font-size: 50%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: forestgreen;  
+}
+
+h3{
+    font-size: 200%;
+    color: orangered;
+    padding: 10px;
+}
+
+footer li{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 400px;
+    padding-right: 10%;
+    font-weight: bold;
+    font-size: 100%;
+    color: darkblue;
+}
+
+@media screen and (max-width: 768px) {
+    header,
+    main {
+      flex-direction: column;
+    }
 }
