@@ -1,7 +1,10 @@
 # Personal-Portfolio
 
 # Description
-A homepage to display my work for potential employers.
+As an employee:
+
+I want: A homepage to display my work for potential employers.
+So that: Employers can get a sample of what I can do.
 
 # Roadmap
-I intend to change and edit the content on this page and add more content to future links.
+I intend to change, add, and edit the content on this page as I progress.
