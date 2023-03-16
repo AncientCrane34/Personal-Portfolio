@@ -36,6 +36,10 @@ nav a{
     color:darkblue    
 }
 
+nav a:active{
+    color:maroon;
+}
+
 section{
     display: flex;
     flex: 1 1 0;
@@ -83,6 +87,15 @@ section li{
     padding: 2%;
     border: solid 5px blue;
     margin: 2%;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+#surf{
+    width: 300px;
+    height: 300px;
 }
 
 div li:hover{
@@ -92,10 +105,12 @@ div li:hover{
 
 div li:active{
     box-shadow: 0 0 10px black inset;
+    font-size: 98%;
 }
 
 div span{
-    font-size: 50%;
+    justify-content: end;
+    font-size: 75%;
 }
 
 footer{
